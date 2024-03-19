@@ -1,0 +1,222 @@
+/* @import url("utility.css");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: 1px solid tomato;
+}
+:root {
+  --bgBlue: rgb(33, 33, 99);
+}
+span {
+  display: block;
+}
+.hamburger {
+  display: none;
+}
+
+.container {
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+/* figure {
+  width: 10rem;
+  height: 100%;
+} */
+ul {
+  list-style: none;
+  display: flex;
+}
+
+/* HEADER STYLES */
+
+header {
+  height: 7%;
+}
+.iconCommune {
+  height: 70%;
+  width: 20%;
+  align-self: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.iconCommune img {
+  width: 70%;
+}
+
+header ul {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+header ul li {
+  height: 100%;
+  width: 20%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+header ul li button {
+  all: unset;
+  color: white;
+  background: var(--bgBlue);
+  height: 70%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+}
+/* STYLES FOR MAIN */
+main {
+  height: 60%;
+  justify-content: space-between;
+}
+
+main .largeImg {
+  height: 100%;
+  width: 30%;
+}
+
+main .weBuild {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 67%;
+}
+.learnMore {
+  height: 20%;
+  background-color: var(--bgBlue);
+  color: white;
+  width: 70%;
+  height: 12%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.learnMore a {
+  all: unset;
+  text-decoration: underline;
+}
+
+.build {
+  font-size: 4.5rem;
+}
+
+.commune {
+  height: 20%;
+  font-size: 1.4rem;
+}
+
+form {
+  height: 11%;
+}
+
+form input {
+  height: 100%;
+  width: 50%;
+  font-size: 1.2rem;
+  padding-left: 15px;
+}
+
+form button {
+  all: unset;
+  background: var(--bgBlue);
+  color: white;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.4rem;
+}
+
+/* STYLE FOR FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 12%;
+}
+
+footer p {
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
+
+footer ul {
+  display: flex;
+  gap: 1%;
+}
+
+footer ul li {
+  height: 3rem;
+  width: 4rem;
+  cursor: pointer;
+}
+/* 
+@media screen and (max-width: 900px) {
+  .container {
+    all: unset;
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  /*CSS FOR HEADER */
+  header {
+    padding: 0 1rem;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  .hamburger {
+    height: 60%;
+    align-self: center;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  /* CSS FOR MAIN */
+  main img {
+    display: none;
+  }
+
+  main {
+    all: unset;
+    width: 100%;
+    min-height: 90%;
+    background: rebeccapurple;
+  }
+
+  .weBuild {
+    all: unset;
+    min-width: 100%;
+    background: green;
+  }
+  .build {
+    font-size: 4rem;
+  }
+} */ */
